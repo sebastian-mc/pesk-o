@@ -1,0 +1,23 @@
+{
+  "name": "pesk-o",
+  "version": "0.1.0",
+  "description": "Repositorio para el proyecto 2 de la clase de desarrollo Web.",
+  "main": "back/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-mc/pesk-o.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastian-mc/pesk-o/issues"
+  },
+  "homepage": "https://github.com/sebastian-mc/pesk-o#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  }
+}
