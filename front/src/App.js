@@ -2,12 +2,10 @@ import React, {Component} from 'react';
 
 export default class App extends Component
 {
-  render()
-  {
-    return
-    (
+  render() {
+    return (
       <div>
-        <h1>Hey!</h1>
+        <h1>React</h1>
       </div>
     );
   }
