@@ -1,0 +1,49 @@
+/*--------------------*/
+/* Global Adjustments */
+/*--------------------*/
+
+*
+{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  background-color: #EEE;
+  overflow-x: hidden;
+}
+
+/*--------*/
+/* Header */
+/*--------*/
+#header .jumbotron
+{
+  background-image: url("../assets/images/BG.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  margin: 0;
+}
+
+#header .title
+{
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 3px solid #FFF;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#header .title div
+{
+  width: 100%;
+  text-align: center;
+}

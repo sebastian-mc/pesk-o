@@ -1,0 +1,30 @@
+[aria-hidden="true"]
+{
+  visibility: hidden;
+}
+
+.Drawer
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(100vw, 0);
+  will-change: transform, visibility;
+  transition: transform 0.3s linear;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+}
+
+.Drawer[aria-hidden="false"]
+{
+  transform: translate(0, 0);
+  transition: transform 0.3s linear;
+}
+
+.Drawer[aria-hidden="true"]
+{
+  transition: visibility 0s linear 0.3s, transform 0.3s linear;
+}

@@ -1,0 +1,34 @@
+#SearchBox
+{
+  position: relative;
+  background-color: #282828;
+  padding: 1.5em 0;
+}
+
+.content
+{
+  padding: 0 2em;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1480px;
+}
+
+.SearchLabel
+{
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 0.5em;
+  color: #FFF;
+}
+
+.InputBox
+{
+  caret-color: #1C6BA0;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.6;
+}
