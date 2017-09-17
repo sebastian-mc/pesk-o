@@ -7,16 +7,22 @@ class Fish extends Component
 {
   constructor(props) {
     super(props);
+    this.SelectFish = this.SelectFish.bind(this);
   }
+
+  SelectFish() {
+    this.props.select(this.props.pez);
+  }
+
   render() {
     return (
       <div className="FishCard col-md-4 col-sm-6 col-xs-12">
-        <div className="content">
+        <div className="content" onClick={(p) => this.SelectFish()}>
           <div className="image">
-            <img src={this.props.pez.image} alt={"Imagen de " + this.props.pez.name}/>
+            <img src={this.props.pez.urlFoto} alt={"Imagen de " + this.props.pez.nombre}/>
           </div>
           <div className="name">
-            <h2>{this.props.pez.name}</h2>
+            <h2>{this.props.pez.nombre}</h2>
           </div>
         </div>
       </div>
@@ -25,7 +31,8 @@ class Fish extends Component
 }
 
 Fish.propTypes = {
-  pez: PropTypes.object.isRequired
+  pez: PropTypes.object.isRequired,
+  select: PropTypes.func.isRequired
 }
 
 export default Fish;

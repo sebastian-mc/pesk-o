@@ -10,9 +10,60 @@ class App extends Component
     super(props);
     this.state = {
       peces: [
-        {image: "url", name: "pez"},
-        {image: "url", name: "OtroPez"},
-
+        {nombre: "Pescado1",
+        descripcion: "Ipsum Eles",
+        tipo: "Pescado",
+        estado: "En peligro",
+        urlFoto: "./assets/images/BG.jpg",
+        recetas: [
+          {nombre: "Receta",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"},
+          {nombre: "Receta2",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"},
+          {nombre: "Receta3",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"}
+        ]},
+        {nombre: "Pescado2",
+        descripcion: "Ipsum Eles",
+        tipo: "Pescado",
+        estado: "En peligro",
+        urlFoto: "./assets/images/BG.jpg",
+        recetas: [
+          {nombre: "Receta",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"},
+          {nombre: "Receta2",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"},
+          {nombre: "Receta3",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"}
+        ]},
+        {nombre: "Pescado3",
+        descripcion: "Ipsum Eles",
+        tipo: "Pescado",
+        estado: "En peligro",
+        urlFoto: "./assets/images/BG.jpg",
+        recetas: [
+          {nombre: "Receta",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"},
+          {nombre: "Receta2",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"},
+          {nombre: "Receta3",
+          ingredientes: ["Uno", "Dos"],
+          preparacion: "Se prepara"}
+        ]},
+        {nombre: "Pescado4",
+        descripcion: "Ipsum Eles",
+        tipo: "Pescado",
+        estado: "En peligro",
+        urlFoto: "./assets/images/BG.jpg",
+        recetas: []},
       ],
       pez: {},
       visibleInfo: false,
@@ -21,9 +72,21 @@ class App extends Component
   }
 
   search(text) {
-    console.log("Here: "+text);
     this.setState({
       search: text
+    });
+  }
+
+  select(fish) {
+    this.setState({
+      pez: fish,
+      visibleInfo: true
+    });
+  }
+
+  exit() {
+    this.setState({
+      visibleInfo: false
     });
   }
 
@@ -35,12 +98,13 @@ class App extends Component
         </div>
         <div>
           <FishGrid peces={this.state.peces.filter((p) => {
-            return p.name.toLowerCase().startsWith(this.state.search.toLowerCase());
-          }) }/>
+            return p.nombre.toLowerCase().startsWith(this.state.search.toLowerCase());
+          }) } select={(p) => this.select(p)} />
         </div>
         <div>
           <InfoPage pez={this.state.pez}
-            visibleInfo={this.state.visibleInfo}/>
+            visibleInfo={this.state.visibleInfo}
+            exit={() => this.exit()}/>
         </div>
       </div>
     );

@@ -2,12 +2,10 @@ import React, {Component} from 'react';
 import PropTypes from "prop-types";
 import Fish from './Fish.js';
 
-import './css/FishGridStyle.css';
-
 class FishGrid extends Component
 {
-  constructor(props) {
-    super(props);
+  Select(fish) {
+    this.props.select(fish);
   }
 
   render() {
@@ -22,13 +20,14 @@ class FishGrid extends Component
 
   renderFish() {
     return this.props.peces.map((p, i) => {
-      return <Fish pez= {p} key={i}/>;
+      return <Fish pez= {p} select={(p) => this.Select(p)} key={i}/>;
     });
   }
 }
 
 FishGrid.propTypes = {
-  peces: PropTypes.array.isRequired
+  peces: PropTypes.array.isRequired,
+  select: PropTypes.func.isRequired
 }
 
 export default FishGrid;

@@ -5,7 +5,7 @@
   height: 10em;
 }
 
-.FishCard a
+.FishCard
 {
   text-decoration: none;
   color: #FFF;
@@ -34,12 +34,29 @@
   padding: 2%;
 }
 
-.FishCard .content .image
+.FishCard .content div
 {
-  background-color: #1C6BA0;
+  display: flex;
+  align-items: center;
+  background-color: #282828;
 }
 
-.FishCard .content .name
+.FishCard .name h2
 {
-  background-color: #282828;
+  width: 100%;
+  text-align: center;
+}
+
+.FishCard .content .image
+{
+  padding: 5px 5px 5px 10px;
+}
+
+.FishCard .content .image img
+{
+  border-radius: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }

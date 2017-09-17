@@ -19,10 +19,17 @@ class SearchBar extends Component
       <div id="SearchBox">
         <div className="content">
           <h4 className="SearchLabel">Busca un pez</h4>
-          <input className="InputBox"
-            type="text"
-            placeholder="Busqueda"
-            onInput= {(e) => this.OnInput(e)}/>
+          <div className="SearchBoxDiv">
+            <div className="icon">
+              <img src="./assets/icons/search.svg" alt="Icono de busqueda"/>
+            </div>
+            <div>
+              <input className="InputBox"
+                type="text"
+                placeholder="Busqueda"
+                onInput= {(e) => this.OnInput(e)}/>
+            </div>
+          </div>
         </div>
       </div>
     );
