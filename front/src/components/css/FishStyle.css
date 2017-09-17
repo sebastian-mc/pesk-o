@@ -1,0 +1,62 @@
+.FishCard
+{
+  padding: 1rem 0.5rem;
+  width: 100%;
+  height: 10em;
+}
+
+.FishCard
+{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.FishCard .content
+{
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+}
+
+.FishCard .content:hover
+{
+  transition: 0.2s;
+  padding: 0%;
+}
+
+.FishCard .content:not(:hover)
+{
+  transition: 0.2s;
+  padding: 2%;
+}
+
+.FishCard .content div
+{
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+}
+
+.FishCard .name h2
+{
+  width: 100%;
+  text-align: center;
+}
+
+.FishCard .content .image
+{
+  padding: 5px 5px 5px 10px;
+}
+
+.FishCard .content .image img
+{
+  border-radius: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
