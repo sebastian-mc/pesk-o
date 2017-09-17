@@ -1,0 +1,569 @@
+[
+    {
+        "nombre": "Acanthurus Japonicus",
+        "descripcion": "Es una especie espectacular, frecuentemente disponible en comercios. A los lados del pedúnculo caudal, tiene una espina retráctil muy afilada y ligeramente venenosa que utiliza para defenderse de sus atacantes.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Japonicus-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Pyroferus",
+        "descripcion": "El Acanthurus pyroferus habita en Océano Indo-Pacífico, desde Seychelles a Japón, las Islas de la Comunidad, las Marquesas y Tuamotu.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Pyroferus-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Achilles",
+        "descripcion": "Es una especie de cardumen en su hábitat natural, aunque sin embargo es muy agresivo. Por eso, solo se recomienda mantener un ejemplar solo, a menos que se cuente con acuarios de gran volumen superiores a los 1000 litros.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Achilles-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Nigricans",
+        "descripcion": "El Acanthurus nigricans habita en el Océano Indico Oriental y todo el Pacífico desde Natividad hasta Japón, Hawái, Galápagos y México.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Nigricans-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Triostegus",
+        "descripcion": "El Acanthurus Triostegus habita en el Océano Indo-Pacífico, desde el Este de África hasta América, entre los 2 y los 80 metros de profundidad.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Triostegus-292.jpg"
+    },
+    {
+        "nombre": "Amphiprion Ocellaris",
+        "descripcion": "El Amphiprion Ocellaris habita en los Arrecifes coralinos del Mar de Asia y Australia, en el Indo-Pacifico Occidental, al Este del Océano Indico como Islas de Andaman y Nicobar, Tailandia, Malasia y el Noroeste de Australia al Sudeste Asiático, Singapur, Indonesia y las Filipinas, limitando su rango al Norte de Taiwán. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Amphiprion-Ocellaris-292.jpg"
+    },
+    {
+        "nombre": "Anampses Femininus",
+        "descripcion": "El Anampses Femininus habita en el Oceano Pacifico, desde Australia hasta la Isla de Pascua. Se encuentran en la superficie si son juveniles y las especies maduras a partir de los 30 hasta los 100 metros de profundidad.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Anampses-Femininus-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Leucosternon",
+        "descripcion": "Se trata de una especie con muchos colores, por lo general no se encuentran en acuarios domésticos debido a su gran tamaño y su carácter beligerante. Al igual que otras especies del género su cuerpo es alto y aplanado.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Leucosternon-292.jpg"
+    },
+    {
+        "nombre": "Arothron Nigropunctatus",
+        "descripcion": "El Arothron Nigropunctatus habita desde el África Central hasta la Micronesia, Samoa, el Sur de Japón y Nueva Gales del Sur (Australia).",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Arothron-Nigropunctatus-292.jpg"
+    },
+    {
+        "nombre": "Amblyeleotris Randalli",
+        "descripcion": "La especie Amblyeleotris Randalli habita en los Arrecifes coralinos del Mar Rojo y los Océanos Indico y Pacifico, incluyendo Japón y la Gran Barrera Australiana.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Amblyeleotris-Randalli-292.jpg"
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "",
+        "descripcion": "",
+        "tipo": "Mar",
+        "estado": "",
+        "url": ""
+    },
+    {
+        "nombre": "Aeoliscus Strigatus",
+        "descripcion": "El Aeoliscus Strigatus habita en zonas tranquilas de los arrecifes, entre el Océano Indopacifico y el Mar Rojo.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Aeoliscus-Strigatus-292.jpg"
+    },
+    {
+        "nombre": "Anampses Meleagrides",
+        "descripcion": "El Anampses Meleagrides habita en el Oceano Indo-Pacifico: Desde el Mar Rojo y Sudáfrica a las Islas Samoa y Tuamoto. En profundidades comprendidas entre 3 y 60 metros.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Anampses-Meleagrides-292.jpg"
+    },
+    {
+        "nombre": "Amphiprion Perideraion",
+        "descripcion": "El Amphiprion Perideraion habita en el Océano Pacifico Occidental, desde el Mar de Andaman hasta Molucas.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Amphiprion-Perideraion-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Sohal",
+        "descripcion": "El Acanthurus Sohal habita en el Océano Indico Occidental y es endémico del Mar Rojo, endémico y del Golfo Pérsico.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Sohal-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Tennentii",
+        "descripcion": "El Acanthurus tennentii habita en el Océano Indico de Este a Oeste (Sri Lanka y en el Mar Rojo).Este cirujano es uno de los pocos de su especie con una coloración hermosa en su cuerpo y color vibrante en sus pedúnculos caudal que rodean la columna vertebral.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Tennentii-292.jpg"
+    },
+    {
+        "nombre": "Centropyge Acanthops",
+        "descripcion": "El Centropyge acanthops habita en el oeste del Océano Indico, en Sudáfrica y Madagascar.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Centropyge-Acanthops-292.jpg"
+    },
+    {
+        "nombre": "Chaetodon Semilarvatus",
+        "descripcion": "El Chaetodon semilarvatus habita en el Océano Indo-Pacífico, en el Mar Rojo y el Golfo de Adén, a profundidades de entre 3 y 20 metros. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Chaetodon-Semilarvatus-292.jpg"
+    },
+    {
+        "nombre": "Canthigaster Valentini",
+        "descripcion": "El Canthigaster valentini habita en el Océano Pacífico y en el Indico, desde el Mar Rojo hasta las costas orientales de Australia.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Canthigaster-Valentini-292.jpg"
+    },
+    {
+        "nombre": "Assessor Macneilli",
+        "descripcion": "El Assessor macneilli habita en el Pacífico Oeste, la Gran Barrera Australiana y Nueva Caledonia. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Assessor-Macneilli-292.jpg"
+    },
+    {
+        "nombre": "Centropyge Bicolor",
+        "descripcion": "El Centropyge bicolor habita en el Océano Pacífico, desde África oriental a las islas de Samoa e isla Phoenix, al norte hasta el sur de Japón y al sur de Nueva Galedonia, en Micronesia.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Centropyge-Bicolor-292.jpg"
+    },
+    {
+        "nombre": "Acanthurus Lineatus",
+        "descripcion": "El Acanthurus lineatus habita en en el Océano Indo-Pacífico, desde África del este hasta Hawái, incluyendo Maquesas, Japón y toda la Gran Barrera. Se encuentra a profundidades entre los 0 y los 15 metros.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acanthurus-Lineatus-292.jpg"
+    },
+    {
+        "nombre": "Choerodon Fasciatus",
+        "descripcion": "El Choerodon fasciatus habita en Océano Pacifico Occidental. Se distribuye en dos áreas: al norte, desde las islas Ryukyu hasta Taiwán, y el sur, desde Nueva Caledonia hasta Queensland (Australia).",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Choerodon-Fasciatus-292.jpg"
+    },
+    {
+        "nombre": "Coris Julis",
+        "descripcion": "El Coris julis habita en los fondos de escasa profundidad en el Mar Mediterráneo, donde es muy común, y en las costas del este del Océano Atlántico desde Escocia hasta Gabón, incluyendo las costas de las Islas Canarias.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Coris-Julis-292.jpg"
+    },
+    {
+        "nombre": "Antennarius Maculatus",
+        "descripcion": "El Antennarius Maculatus habita en Océano Indo-Pacifico Occidental, desde Islas Maldivas y Mauricio hasta Indonesia, Singapur, Nueva Guinea e Islas Salomón.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Antennarius-Maculatus-292.jpg"
+    },
+    {
+        "nombre": "Centropyge Bispinosa",
+        "descripcion": "El Centropyge bispinosa habita en el Océano Indico Pacifico, desde el este de África Oriental hasta las islas Tuamoto, al norte de la islas Izu, al sur de la isla Lord Howe.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Centropyge-Bispinosa-292.jpg"
+    },
+    {
+        "nombre": "Centropyge Eibli",
+        "descripcion": "El Centropyge eibli habita en el Océano Indo-Pacifico Occidental, desde Sri Lanka a las zona oriental de la región Indo-Malaya. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Centropyge-Eibli-292.jpg"
+    },
+    {
+        "nombre": "Canthigaster Solandri",
+        "descripcion": "El Canthigaster solandri habita en el Océano Indo-Pacífico desde África Oriental hasta las islas de la Línea, las Tuamotu, las islas Ryukyu, Nueva Caledonia y Tonga.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Canthigaster-Solandri-292.jpg"
+    },
+    {
+        "nombre": "Cirrhitichthys Falco",
+        "descripcion": "El Cirrhitichthys falco habita en el Océano Indo-Pacifico, desde el Mar Rojo hasta la costa oeste de América del Sur y la costa este de África. Desde Filipinas, Japón, Samoa y Nueva Caledonia.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Cirrhitichthys-Falco-292.jpg"
+    },
+    {
+        "nombre": "Bodianus Anthioides",
+        "descripcion": "El Bodianus anthioides habita en el Océano Indo pacífico desde el Mar Rojo hasta las Islas Línea, el Archipiélago Tuamotú, por el norte hasta el sur de Japón y por el sur hasta Nueva Caledonia y las Islas Australes.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Bodianus-Anthioides-292.jpg"
+    },
+    {
+        "nombre": "Acreichthys Tomentosus",
+        "descripcion": "El Acreichthys tomentosus habita en el Océano Indo pacífico Occidental, se encuentra desde África Oriental hasta Fiji, las Islas Ryukyu, Nueva Gales del Sur (Australia) y Tonga.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Acreichthys-Tomentosus-292.jpg"
+    },
+    {
+        "nombre": "Cryptocentrus Leptocephalus",
+        "descripcion": "El Cryptocentrus leptocephalus habita en el Océano Pacifico Occidental, desde Indonesia hasta Nueva Caledonias, las islas Yaeyama, el noroeste de Australia y Tonga. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Cryptocentrus-Leptocephalus-292.jpg"
+    },
+    {
+        "nombre": "Ctenochaetus Strigosus",
+        "descripcion": "El Ctenochaetus strigosus habita en el Océano Indo-pacífico, desde África Oriental (exceptuando el Mar Rojo) hasta Hawai.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Ctenochaetus-Strigosus-292.jpg"
+    },
+    {
+        "nombre": "Cirrhilabrus Exquisitus",
+        "descripcion": "El Cirrhilabrus exquisitus habita en el Océano Indo-Pacifico, al este de África hasta las Islas Tuamotu, al norte, hacia el Japón y en la Gran Barrera de Coral de Australia.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Cirrhilabrus-Exquisitus-292.jpg"
+    },
+    {
+        "nombre": "Cryptocentrus Cinctus",
+        "descripcion": "El Cryptocentrus cinctus habita en el Océano Pacifico Occidental Tropical, desde el Japón hasta Singapur, al sur de la Gran Barrera de Coral y República de Palau. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Cryptocentrus-Cinctus-292.jpg"
+    },
+    {
+        "nombre": "Chaetodon Xanthurus",
+        "descripcion": "El Chaetodon xanthurus habita en el Océano Indo-Pacifico, en las costas cercanas a las Filipinas, las Indias Orientales y al norte como Okinawa.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Chaetodon-Xanthurus-292.jpg"
+    },
+    {
+        "nombre": "Centropyge Loricula",
+        "descripcion": "El Centropyge loricula habita en el sur del Océano Pacifico Central y Occidental, en las agua cercanas a Hawai, Australia, Nueva Guinea, Filipinas, al sur de Nueva Caledonia y las islas de Navidad. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Centropyge-Loricula-292.jpg"
+    },
+    {
+        "nombre": "Naso Elegans",
+        "descripcion": "El Naso elegans habita en el Océano Índico y el Mar Rojo, se encuentran en el sur de Durban, África del Sur y el este a través de las islas del Océano Índico occidental a Bali en el suroeste de Indonesia. No hay reportes de ellos en el Golfo de Omán, Golfo Pérsico, o la India.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Naso-Elegans-292.jpg"
+    },
+    {
+        "nombre": "Meiacanthus Grammistes",
+        "descripcion": "El Meiacanthus grammistes habita en el Océano Pacifico Occidental desde Indochina hasta Papúa Nueva Guinea, las Ryukyu, el noroeste de Australia y la Gran Barrera de Coral.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Meiacanthus-Grammistes-292.jpg"
+    },
+    {
+        "nombre": "Hoplolatilus Fourmanoiri",
+        "descripcion": "El Hoplolatilus Fourmanoiri habita en del Indo-Pacífico conocidos de Indonesia, Filipinas, Islas Salomón y Viet Nam.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Hoplolatilus-Fourmanoiri-292.jpg"
+    },
+    {
+        "nombre": "Halichoeres Chrysus",
+        "descripcion": "El Halichoeres chrysus habita en las aguas cercanas a las Islas Salomón hasta el sur del Japón, Tonga y Nueva Gales del Sur (Australia).",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Halichoeres-Chrysus-292.jpg"
+    },
+    {
+        "nombre": "Cirrhilabrus Rubripinnis",
+        "descripcion": "El Cirrhilabrus rubripinnis habita en el Océano Indo-Pacifico, en las Filipinas, hasta los 30 metros de profundidad. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Cirrhilabrus-Rubripinnis-292.jpg"
+    },
+    {
+        "nombre": "Chelmon Rostratus",
+        "descripcion": "El Chelmon rostratus habita en el oeste del Océano Indico y el Pacífico Occidental, Mar de Andamán y las Islas Ryukyu, el sudeste de Asia a la gran Barrera de coral, en Indonesia y en los mares de Indochina. ",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Chelmon-Rostratus-292.jpg"
+    },
+    {
+        "nombre": "Halichoeres Garnoti",
+        "descripcion": "El Halichoeres garnoti habita en las aguas tropicales de las costas Occidentales del Océano Atlántico, entre Bermudas y el sur de Florida (EEUU) hasta el sureste de Brasil.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Halichoeres-Garnoti-292.jpg"
+    },
+    {
+        "nombre": "Chaetodon Auriga",
+        "descripcion": "El Chaetodon auriga habita en todo el Océano Indo-Pacífico, desde el Mar Rojo y la costa este de África hasta Hawái.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Chaetodon-Auriga-292.jpg"
+    },
+    {
+        "nombre": "Coris Formosa",
+        "descripcion": "El Coris Formosa habita en el Océano Indico, desde el sur del Mar rojo hasta KwaZulu-Natal en Sudáfrica y Sri Lanka.",
+        "tipo": "Mar",
+        "estado": "",
+        "url": "https://acuarioadictos.com/wp-content/upps/strikingr/images/Coris-Formosa-292.jpg"
+    }
+]
