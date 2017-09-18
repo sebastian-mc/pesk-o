@@ -97,7 +97,7 @@
   background-color: #000;
   border: 1px solid #282828;
   border-top: 0;
-  padding: 0 30px;
+  padding: 10px 30px;
   max-height: 60vh;
   overflow-y: auto;
 }
@@ -107,3 +107,20 @@
   display: none;
 }
 
+#InfoPage .recetaPage .nav
+{
+  display: inline;
+  float: right;
+}
+
+#InfoPage .recetaPage .nav img
+{
+  cursor: pointer;
+  height: 7.5vh;
+}
+
+#cityChooser button
+{
+  cursor: pointer;
+  margin-top: 10px;
+}
