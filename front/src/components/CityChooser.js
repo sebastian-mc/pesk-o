@@ -5,31 +5,51 @@ import React, {Component} from 'react';
 
 
 class CityChooser extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            departamento: "",
-            ciudad: ""
-        }
+  constructor(props) {
+    super(props);
+    this.state = {
+      departamento: "",
+      mensaje: ""
+      }
     }
-    render(){
-        const options = ["apple", "mango", "grapes", "melon", "strawberry"];
 
-        return (                        <div className="form-group">
-            <select
-                name='Departamento'
-                value='Cundinamarca'
-                onChange={(event)=>{console.log(event.target.value)}}
-                className="form-select">
-                <option value="">Seleccione departamento</option>
-                {options.map(opt => {
-                    return (
-                        <option
-                            key={opt}
-                            value={opt}>{opt}</option>
-                    );
-                })}
+  changeSelection(txt) {
+    this.setState({
+      departamento: txt
+    });
+  }
+
+  enviar() {
+    this.setState({
+      mensaje: "¡Gracias!"
+    });
+  }
+
+  render(){
+    const options = ["apple", "mango", "grapes", "melon", "strawberry"];
+
+    return (
+      <div id="cityChooser">
+        <p>Ayudanos a detener la venta de peces en peligro</p>
+        <div className="form-group">
+          <label htmlFor="SelDep">Selecciona el departamento donde viste el pez en venta:</label>
+          <select
+            id='SelDep'
+            name='Departamento'
+            onChange={(event)=>this.changeSelection(event.target.value)}
+            className="form-control">
+            {options.map(opt => {
+              return (
+                <option
+                  key={opt}
+                  value={opt}>{opt}</option>
+                );
+              })}
             </select>
-        </div>)}
+            <button onClick={() => this.enviar()} type="button" className="btn btn-primary">Enviar</button>
+          </div>
+          <h2>{this.state.mensaje}</h2>
+      </div>
+    )}
 }
 export default CityChooser;

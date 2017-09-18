@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from "prop-types";
-import CityChooser from "./CityChooser";
+import CityChooser from "./CityChooser.js";
 
 class FishRecipePage extends Component
 {
@@ -11,20 +11,52 @@ class FishRecipePage extends Component
     }
   }
 
+  prevRecipe() {
+    var newIndex = this.state.recetaIndex;
+    newIndex--;
+    if(newIndex < 0)
+    {
+      newIndex = this.props.recetas.length - 1;
+    }
+    this.setState({
+      recetaIndex: newIndex
+    });
+  }
+
+  nextRecipe() {
+    var newIndex = this.state.recetaIndex;
+    newIndex++;
+    if(newIndex >= this.props.recetas.length)
+    {
+      newIndex = 0;
+    }
+    this.setState({
+      recetaIndex: newIndex
+    });
+  }
+
   render() {
     if(this.props.recetas !== undefined && this.props.recetas.length !== 0)
     {
       return (
         <div className={"col-sm-12 page recetaPage " + this.props.active}>
+          <div className="nav">
+            <img onClick={() => this.prevRecipe()} src="./assets/icons/back.svg" alt="Atras"/>
+            <img onClick={() => this.nextRecipe()} src="./assets/icons/next.svg" alt="Siguiente"/>
+          </div>
           <h2>{this.props.recetas[this.state.recetaIndex].nombre}</h2>
           <h6>Ingredientes:</h6>
           <ul>
             {this.props.recetas[this.state.recetaIndex].ingredientes.map((ing, i) => (
-              <li>{ing}</li>
+              <li key={i}>{ing}</li>
             ))}
           </ul>
           <h6>Preparacion:</h6>
-          <p>{this.props.recetas[this.state.recetaIndex].preparacion}</p>
+          <ol>
+            {this.props.recetas[this.state.recetaIndex].preparacion.map((prep, i) => (
+              <li key={i}>{prep}</li>
+            ))}
+          </ol>
         </div>
       );
     }
