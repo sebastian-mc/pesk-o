@@ -1,0 +1,8 @@
+{
+name: "Node.js Getting Started",
+description: "Sitio web de recetas de peces",
+repository: "https://github.com/sebastian-mc/pesko/tree/master/back",
+logo: "",
+keywords: [node, express, fish],
+image: "",
+}
