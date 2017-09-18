@@ -4,7 +4,7 @@ import SearchBar from './components/SearchBar.js';
 import FishGrid from './components/FishGrid.js';
 import InfoPage from './components/InfoPage.js';
 
-const urlBase = 'http://localhost:1337/';
+const urlBase = 'https://pesko.herokuapp.com/';
 class App extends Component
 {
   constructor(props) {
