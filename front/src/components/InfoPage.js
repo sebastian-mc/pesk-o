@@ -45,7 +45,7 @@ class InfoPage extends Component
         <div className="container-fluid content">
           <div className="row pageHeader">
             <div className="col-sm-2 image">
-              <img src={this.props.pez.urlFoto} alt={"Foto de "+this.props.pez.nombre}/>
+              <img src={this.props.pez.url} alt={"Foto de "+this.props.pez.nombre}/>
             </div>
             <div className="col-sm-10 name">
               <h1>{this.props.pez.nombre}</h1>
@@ -59,11 +59,11 @@ class InfoPage extends Component
               <h4>Información</h4>
             </div>
             <div className={"col-sm-4 tab " + this.state.receta} onClick={() => this.ChangeTab("receta")}>
-              <h4>{this.props.pez.recetas !== undefined ? "Recetas" : "¿Donde lo encontraste?"}</h4>
+              <h4>{this.props.pez.recetas && this.props.pez.recetas.length !== 0? "Recetas" : "¿Donde lo encontraste?"}</h4>
             </div>
           </div>
           <FishInfoPage pez={this.props.pez} active={this.state.info}/>
-          <FishRecipePage recetas={this.props.pez.recetas} active={this.state.receta}/>
+          <FishRecipePage recetas={this.props.pez.recetas?this.props.pez.recetas:[] } active={this.state.receta}/>
         </div>
       </div>
     );

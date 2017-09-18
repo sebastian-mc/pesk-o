@@ -6,9 +6,11 @@ const mongoClient = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
 const app = express();
 const config = require( './config');
+const cors = require( 'cors');
 
 app.use(bodyParser.urlencoded({extend: true}));
 app.use(bodyParser.json());
+app.use(cors());
 const routes = require('./API/index');
 routes(app);
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from "prop-types";
+import CityChooser from "./CityChooser";
 
 class FishRecipePage extends Component
 {
@@ -30,7 +31,7 @@ class FishRecipePage extends Component
     else {
       return (
         <div className={"col-sm-12 page recetaPage " + this.props.active}>
-          No hay recetas para este pez
+          <CityChooser/>
         </div>
       );
     }

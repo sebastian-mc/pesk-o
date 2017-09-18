@@ -1,74 +1,27 @@
 import React, {Component} from 'react';
-
+import axios from 'axios';
 import SearchBar from './components/SearchBar.js';
 import FishGrid from './components/FishGrid.js';
 import InfoPage from './components/InfoPage.js';
 
+const urlBase = 'http://localhost:1337/';
 class App extends Component
 {
   constructor(props) {
     super(props);
     this.state = {
-      peces: [
-        {nombre: "Pescado1",
-        descripcion: "Ipsum Eles",
-        tipo: "Pescado",
-        estado: "En peligro",
-        urlFoto: "./assets/images/BG.jpg",
-        recetas: [
-          {nombre: "Receta",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"},
-          {nombre: "Receta2",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"},
-          {nombre: "Receta3",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"}
-        ]},
-        {nombre: "Pescado2",
-        descripcion: "Ipsum Eles",
-        tipo: "Pescado",
-        estado: "En peligro",
-        urlFoto: "./assets/images/BG.jpg",
-        recetas: [
-          {nombre: "Receta",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"},
-          {nombre: "Receta2",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"},
-          {nombre: "Receta3",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"}
-        ]},
-        {nombre: "Pescado3",
-        descripcion: "Ipsum Eles",
-        tipo: "Pescado",
-        estado: "En peligro",
-        urlFoto: "./assets/images/BG.jpg",
-        recetas: [
-          {nombre: "Receta",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"},
-          {nombre: "Receta2",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"},
-          {nombre: "Receta3",
-          ingredientes: ["Uno", "Dos"],
-          preparacion: "Se prepara"}
-        ]},
-        {nombre: "Pescado4",
-        descripcion: "Ipsum Eles",
-        tipo: "Pescado",
-        estado: "En peligro",
-        urlFoto: "./assets/images/BG.jpg",
-        recetas: []},
-      ],
+      peces: [],
       pez: {},
       visibleInfo: false,
       search: ""
     }
+  }
+  componentWillMount(){
+    axios.get(urlBase+ 'api/peces').then((res)=>{
+
+      this.setState({peces:res.data});
+    })
+
   }
 
   search(text) {

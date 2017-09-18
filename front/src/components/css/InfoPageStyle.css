@@ -97,9 +97,13 @@
   background-color: #000;
   border: 1px solid #282828;
   border-top: 0;
+  padding: 0 30px;
+  max-height: 60vh;
+  overflow-y: auto;
 }
 
 #InfoPage .page:not(.active)
 {
   display: none;
 }
+
