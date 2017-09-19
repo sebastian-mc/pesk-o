@@ -20,6 +20,7 @@ class Fish extends Component
         <div className="content" onClick={(p) => this.SelectFish()}>
           <div className="image">
             <img src={this.props.pez.url} alt={"Imagen de " + this.props.pez.nombre}/>
+//Que bueno que recordaran el uso del tag Alt.
           </div>
           <div className="name">
             <h2>{this.props.pez.nombre}</h2>
