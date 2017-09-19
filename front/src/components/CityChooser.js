@@ -9,13 +9,34 @@ class CityChooser extends Component {
     super(props);
     this.state = {
       departamento: "",
+      ciudad: "",
+      departamentoKey: 0,
+      datos: [{ciudades: []}],
       mensaje: ""
-      }
     }
+  }
 
-  changeSelection(txt) {
+  componentWillMount() {
+    fetch('./assets/json/ciudades.json')
+    .then((res) => res.json())
+    .then((data) => {
     this.setState({
-      departamento: txt
+      datos: data,
+      departamentoKey: data[0].id
+    });
+  })
+  }
+
+  changeSelectionDep(id, txt) {
+    this.setState({
+      departamento: txt,
+      departamentoKey: id
+    });
+  }
+
+  changeSelectionCid(txt) {
+    this.setState({
+      ciudad: txt
     });
   }
 
@@ -26,8 +47,6 @@ class CityChooser extends Component {
   }
 
   render(){
-    const options = ["apple", "mango", "grapes", "melon", "strawberry"];
-
     return (
       <div id="cityChooser">
         <p>Ayudanos a detener la venta de peces en peligro</p>
@@ -36,16 +55,30 @@ class CityChooser extends Component {
           <select
             id='SelDep'
             name='Departamento'
-            onChange={(event)=>this.changeSelection(event.target.value)}
+            onChange={(event)=>this.changeSelectionDep(event.target.value, event.target.id)}
             className="form-control">
-            {options.map(opt => {
+            {this.state.datos.map((opt, i) => {
               return (
                 <option
-                  key={opt}
-                  value={opt}>{opt}</option>
+                  key={i}
+                  value={opt.id}>{opt.departamento}</option>
                 );
               })}
             </select>
+            <label htmlFor="SelCid">Selecciona la ciudad:</label>
+            <select
+              id='SelCid'
+              name='Ciudad'
+              onChange={(event)=>this.changeSelectionCid(event.target.value)}
+              className="form-control">
+              {this.state.datos[this.state.departamentoKey].ciudades.map((opt, i) => {
+                return (
+                  <option
+                    key={i}
+                    value={opt}>{opt}</option>
+                  );
+                })}
+              </select>
             <button onClick={() => this.enviar()} type="button" className="btn btn-primary">Enviar</button>
           </div>
           <h2>{this.state.mensaje}</h2>

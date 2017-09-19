@@ -18,7 +18,9 @@ class SearchBar extends Component
     return (
       <div id="SearchBox">
         <div className="content">
-          <h4 className="SearchLabel">Busca un pez</h4>
+          <h4 className="SearchLabel">
+            Busca un pez y podras encontrar grandiosas recetas para preparar.
+          </h4>
           <div className="SearchBoxDiv">
             <div className="icon">
               <img src="./assets/icons/search.svg" alt="Icono de busqueda"/>
