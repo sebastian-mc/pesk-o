@@ -44,6 +44,7 @@ class FishRecipePage extends Component
             <img onClick={() => this.prevRecipe()} src="./assets/icons/back.svg" alt="Atras"/>
             <img onClick={() => this.nextRecipe()} src="./assets/icons/next.svg" alt="Siguiente"/>
           </div>
+    //Algunas recetas (como una del Arothron Nigropunctatus) no tienen definida esta propiedad por lo que se cuelga la aplicación al abrir las recetas
           <h2>{this.props.recetas[this.state.recetaIndex].nombre}</h2>
           <h6>Ingredientes:</h6>
           <ul>
@@ -62,6 +63,7 @@ class FishRecipePage extends Component
     }
     else {
       return (
+        //Esto puede ser confuso en aglunas ocaciones ya que el tab tiene como titulo "Recetas"
         <div className={"col-sm-12 page recetaPage " + this.props.active}>
           <CityChooser pez={this.props.pez}/>
         </div>
