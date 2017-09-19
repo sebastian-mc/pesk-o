@@ -1,5 +1,5 @@
 const server = require('../server');
-
+//Es una buena practica devolver el objeto que se elimino, agrego o al cual se le realizo update, no oslo el mensaje de confirmación que termino la acción.
 exports.getAll= (req, res)=>{
     server.database.collection('peces').find().toArray((err, result)=>{
         if(err) return 'Error in database';
@@ -24,6 +24,7 @@ exports.update= (req, res)=>{
     server.database.collection('peces').update({'nombre': req.query.nombre}, {$set: {ciudades: req.body.ciudades}}, (err, result)=>{
 
         if(err) return 'Error en delete'
+        //Elimino?
         res.send('Se elimino con exito el pez');
     })
 };
