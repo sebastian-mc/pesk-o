@@ -39,7 +39,7 @@ class CityChooser extends Component {
       ciudad: txt
     });
   }
-
+//--Sería bueno que la información se guardara en algún lugar
   enviar() {
     this.setState({
       mensaje: "¡Gracias!"
@@ -71,6 +71,7 @@ class CityChooser extends Component {
               name='Ciudad'
               onChange={(event)=>this.changeSelectionCid(event.target.value)}
               className="form-control">
+                // Muy chevere el uso de map para retornar las ciudades correspondientes al departamento
               {this.state.datos[this.state.departamentoKey].ciudades.map((opt, i) => {
                 return (
                   <option
