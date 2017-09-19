@@ -63,7 +63,7 @@ class FishRecipePage extends Component
     else {
       return (
         <div className={"col-sm-12 page recetaPage " + this.props.active}>
-          <CityChooser/>
+          <CityChooser pez={this.props.pez}/>
         </div>
       );
     }
@@ -72,7 +72,8 @@ class FishRecipePage extends Component
 
 FishRecipePage.propTypes = {
   recetas: PropTypes.array.isRequired,
-  active: PropTypes.string.isRequired
+  active: PropTypes.string.isRequired,
+  pez: PropTypes.object.isRequired
 }
 
 export default FishRecipePage;

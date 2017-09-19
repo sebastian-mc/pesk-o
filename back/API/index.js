@@ -11,5 +11,6 @@ module.exports = (app)=>{
     app.get('/api/peces', Pez.getAll);
     app.get('/api/pez', Pez.get);
     app.post('/api/pez', Pez.add);
+    app.put('/api/pez', Pez.update);
     app.delete('/api/pez', Pez.delete);
 };

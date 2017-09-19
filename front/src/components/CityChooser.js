@@ -2,7 +2,7 @@
  * Created by Lady Pinzon on 17/09/2017.
  */
 import React, {Component} from 'react';
-
+import PropTypes from 'prop-types';
 
 class CityChooser extends Component {
   constructor(props) {
@@ -85,4 +85,9 @@ class CityChooser extends Component {
       </div>
     )}
 }
+
+CityChooser.propTypes = {
+  pez: PropTypes.object.isRequired
+}
+
 export default CityChooser;

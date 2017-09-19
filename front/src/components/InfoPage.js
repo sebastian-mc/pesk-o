@@ -63,7 +63,7 @@ class InfoPage extends Component
             </div>
           </div>
           <FishInfoPage pez={this.props.pez} active={this.state.info}/>
-          <FishRecipePage recetas={this.props.pez.recetas?this.props.pez.recetas:[] } active={this.state.receta}/>
+          <FishRecipePage pez={this.props.pez} recetas={this.props.pez.recetas?this.props.pez.recetas:[] } active={this.state.receta}/>
         </div>
       </div>
     );
