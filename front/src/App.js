@@ -51,6 +51,7 @@ class App extends Component
         </div>
         <div>
           <FishGrid peces={this.state.peces.filter((p) => {
+            //Se podra considerar el uso de contains para mejorar la experiencia del usuario
             return p.nombre.toLowerCase().startsWith(this.state.search.toLowerCase());
           }) } select={(p) => this.select(p)} />
         </div>
@@ -59,6 +60,7 @@ class App extends Component
             visibleInfo={this.state.visibleInfo}
             exit={() => this.exit()}/>
         </div>
+//Muy buen uso de diferentes componentes dentro de la página
       </div>
     );
   }
