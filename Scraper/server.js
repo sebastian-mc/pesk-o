@@ -113,7 +113,7 @@ app.get('/scannearPez', function (req, res) {
     })
 })
 
-
+//sé que este es el esqueleto, pero no va
 app.get('/scrape', function (req, res) {
     // Let's scrape Anchorman 2
     url = 'http://www.imdb.com/title/tt1229340/';
@@ -336,7 +336,7 @@ const nombresTodos = [
     "zebrasoma-veliferum",
     "zebrasoma-xanthurum"
 ]
-
+//podría haber sido un json para evitar el acoplamiento
 recetas= [
     "https://cookpad.com/co/recetas/1998479-pescado-con-coco-ensalada-y-arroz-con-uvas-pasas",
     "https://cookpad.com/co/recetas/591975-pescado-en-salsa-de-coco",

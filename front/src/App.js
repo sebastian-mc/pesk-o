@@ -3,7 +3,7 @@ import axios from 'axios';
 import SearchBar from './components/SearchBar.js';
 import FishGrid from './components/FishGrid.js';
 import InfoPage from './components/InfoPage.js';
-
+//sólido
 const urlBase = 'https://pesko.herokuapp.com/';
 class App extends Component
 {
