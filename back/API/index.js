@@ -2,7 +2,7 @@
  * Created by Lady Pinzon on 15/09/2017.
  */
 const Pez = require('../models/Pez');
-
+//sólido
 module.exports = (app)=>{
     app.get('/api/', (req,res)=>{
         res.json({message: 'Welcome to my API :( '})
